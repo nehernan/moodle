@@ -1,0 +1,761 @@
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+/********* ESTILOS GENERALES *********/
+
+.ba-box {
+  min-height: 212px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.bg_blue-dark {
+  background: #122024 !important;
+  color: #ffff !important;
+}
+
+.bg_white {
+  background: #ffffff !important;
+  color: #122024 !important;
+}
+
+.ba-title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0.0015em;
+  color: inherit;
+}
+
+.ba-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: inherit;
+}
+
+.ba-paragraph-data {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: inherit;
+  margin-bottom: 3px;
+}
+
+.ba-box-margin-top {
+  margin-top: 82px;
+}
+
+.ba-etapas-title {
+  position: absolute;
+  top: -45px;
+  left: 0px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #122024;
+}
+
+.tag-dark {
+  background: #122024;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0px 9px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tag-green {
+  background: #00eea4;
+  color: #122024;
+  display: inline-block;
+  padding: 0px 9px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/********* SECTION-HEADER*********/
+
+#page-header .bg-gray010 {
+  background-color: #d9d9d9 !important;
+}
+
+.dropdown.usermenu:before {
+content: "Perfil";
+color: #ffffff;
+font-weight: 700;
+}
+
+/********* BODY-BACKGROUND *********/
+#page-content {
+  background-color: #ebebeb !important;
+}
+
+/********* DRAWER SIDEBAR *********/
+
+@media (min-width: 576px) {
+  [data-region="drawer"] {
+    top: 90px !important;
+  }
+  [data-region="drawer-toggle"] {
+    visibility: hidden !important;
+  }
+}
+
+.workplace-drawer-list .drawer-item {
+  padding: 10px 20px !important;
+  border-bottom: 1px solid #ffffff5e !important;
+}
+
+.workplace-drawer-list .drawer-item.active {
+  background: none !important;
+}
+
+.workplace-drawer-list .drawer-item.active > div {
+  background: #ff0037 !important;
+  border-radius: 4px;
+}
+
+.workplace-drawer-list .drawer-item .icon {
+  margin: 9px !important;
+}
+
+.workplace-drawer-wrapper {
+  width: fit-content;
+}
+
+.drawer-item .navname {
+  font-size: 12px;
+}
+
+/*
+body {
+  margin-left: 250px !important;
+}
+@media (max-width: 576px) {
+  body {
+    margin-left: 0px !important;
+  }
+}
+
+#nav-drawer {
+  width: 250px !important;
+}
+*/
+#nav-drawer .workplace-drawer-wrapper {
+  width: 100% !important;
+}
+
+/********* PAGE *********/
+
+#page {
+  margin-top: 90px;
+}
+
+/********* HEADER *********/
+
+.navbar.fixed-top {
+  min-height: 90px;
+  box-shadow: none !important;
+}
+
+.navbar.fixed-top .notloggedinas .userpicture {
+  box-shadow: 0px 0px 0px 3px #ffffff;
+  -webkit-box-shadow: 0px 0px 0px 3px #ffffff;
+  -moz-box-shadow: 0px 0px 0px 3px #ffffff;
+}
+
+/********* BLOQUE DETALLES PERSONALES *********/
+
+#region-main {
+  width: 85% !important;
+  margin: 0 auto !important;
+}
+
+#block-region-content .block {
+  border-radius: 10px !important;
+}
+
+.ee-user_blockinfo .card-body {
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  height: 170px !important;
+}
+
+.card-body {
+  border-bottom: none !important;
+}
+
+.ee-infoblock .ee-infoblock_contenido {
+  justify-content: start !important;
+}
+
+.ee-infoblock .ee-infoblock_datos {
+  padding-left: 0 !important;
+}
+
+.ee-infoblock .ee-infoblock_title h6 {
+  color: #ffffff !important;
+  font-size: 22px !important;
+  margin-bottom: 20px !important;
+}
+
+.ee-infoblock .ee-infoblock_datolbel h6 {
+  color: #00eea4 !important;
+}
+
+.ee-infoblock_data p {
+  margin-bottom: 0 !important;
+}
+
+/********* ETAPA 1 *********/
+
+button.btn-large {
+  background: #005afa;
+  color: white;
+  display: inline-block;
+  padding: 3px 21px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+}
+
+.ee-etapas_data p.data {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #122024;
+  margin-bottom: 3px;
+}
+
+/********* PROGRESSBAR *********/
+
+.progress-bar-title {
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  color: #122024 !important;
+}
+
+.progress {
+  background-color: #999999;
+  border-radius: 10px;
+  height: 0.5rem !important;
+}
+
+.bg-green {
+  background-color: #00eea4 !important;
+  border-radius: 10px;
+}
+
+/*********************************** FORO************************************************/
+#region-main div[role="main"] h2,
+#region-main div[role="main"] h3 {
+  display: none;
+}
+
+#page-course-view-topics .course-content li .activity-information {
+    display: none !important;
+}
+
+#page-course-view-topics .course-header-image{
+   display: none !important;
+}
+
+#page-course-view-topics .mod-indent-outer .completion-info .btn {
+    display: none !important;
+}
+
+.sectionname {
+  margin-left: 0 !important;
+}
+
+#page-course-view-topics .wp-boxshadow-1 {
+  box-shadow: none !important;
+}
+
+/*
+#page-course-view-topics .bg-white {
+  background-color: transparent !important;
+}*/
+
+#page-course-view-topics a.aalink img {
+  display: none !important;
+}
+
+#page-course-view-topics .activityinstance {
+  display: grid !important;
+  gap: 10px !important;
+}
+
+#page-course-view-topics .activityinstance span {
+  width: 50% !important;
+  margin-bottom: 1rem !important;
+}
+
+#page-course-view-topics .activityinstance .aalink .instancename {
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  color: #122024 !important;
+}
+#page-course-view-topics section#region-main {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#page-course-view-topics section#region-main .activity-item {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    border: 0px !important;
+}
+
+#page-course-view-topics section#region-main .activityname {
+    color: #122024 !important;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Titillium Web';
+}
+
+#page-course-view-topics section#region-main .activityiconcontainer.collaboration.courseicon.align-self-start.mr-3 {
+    display: none;
+}
+
+#page-course-view-topics section#region-main .activitytitle .media-body .text-uppercase.small {
+    display: none;
+}
+
+#page-course-view-topics section#region-main .activity-basis :nth-child(1) {
+    flex-direction: column !important;
+}
+
+#page-course-view-topics section#region-main .activity-basis .afterlink {
+    margin: .3rem 0 !important;
+}
+
+#page-course-view-topics section#region-main .activity-basis {
+    position: relative;
+}
+
+#page-course-view-topics section#region-main .activityname a {
+    text-decoration: none;
+    color: #122024;
+}
+
+#page-course-view-topics section#region-main .activityname a::after {
+    content: 'Ver más >';
+    color: #005AFA;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Titillium Web';
+    top: 130px;
+    left: auto;
+    cursor: pointer;
+}
+
+#page-course-view-topics section#region-main .activityname a:hover{
+    color: #122024 ;
+}
+
+#page-course-view-topics section#region-main .activityname a:hover::after {
+    color: #005AFA;
+}
+
+#page-course-view-topics section#region-main .activity-basis .activitytitle.media.modtype_moodleoverflow {
+    width: 100%;
+}
+
+#page-course-view-topics section#region-main .activity-basis .activitytitle .media-body{
+    align-self: flex-start !important;
+}
+
+#page-course-view-topics section#region-main .activity.activity-wrapper.forum.modtype_forum.hasinfo {
+    width: 100% !important;
+    height: 200px !important;
+    background-color: #ffffff !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+    padding: 1.5rem !important;
+    border-radius: 16px !important;
+}
+
+#page-course-view-topics section#region-main .activitytitle.media.modtype_forum {
+    width: 100%;
+}
+
+
+form#newdiscussionform button[type="submit"] {
+  position: relative;
+  max-width: 173px;
+  height: 60px;
+  overflow: hidden;
+  color: transparent;
+  background: #005afa;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+form#newdiscussionform button[type="submit"]:hover {
+  background: #014fd7;
+}
+
+form#newdiscussionform button[type="submit"]::after {
+  position: absolute;
+  content:"Crear pregunta";
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 16px;
+  font-weight: 700;
+  top:0;
+  left:0;
+  transform: translate(30%, 62%);
+}
+
+.singlebutton.align-middle.m-2 {
+  position: absolute;
+  top: 65px;
+  right: 150px;
+}
+
+/********* FORO-ul*********/
+.course-content ul.section.img-text {
+  display: grid !important;
+  justify-content: space-around !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 42px !important;
+}
+
+li.activity.moodleoverflow.modtype_moodleoverflow.hasinfo {
+  width: 100% !important;
+  height: 200px !important;
+  background-color: #ffffff !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+  padding: 1.5rem !important;
+  border-radius: 16px !important;
+}
+
+/**************FORO TABLA DE PREGUNTAS***********/
+
+#page-mod-moodleoverflow-view.format-topics #region-main{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;
+    padding: 0;
+}
+
+#page-mod-moodleoverflow-view.format-topics div[role=main]{
+    padding: 0;
+}
+
+#page-mod-moodleoverflow-view.format-topics div[role=main] h2,
+#page-mod-moodleoverflow-view.format-topics div[role=main] .singlebutton 
+{
+    padding: 0.75rem;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable{
+   margin-bottom: 0;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td{
+   background-color: white;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead th.lastpost,
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td.lastpost
+{
+ padding-right: 1.25rem;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr {
+  height: 60px;
+}
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th {
+  vertical-align: middle;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th:nth-child(-n + 2),
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th:nth-child(5),
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th.discussionsubscription,
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody tr td:nth-child(-n + 2),
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody tr td:nth-child(5),
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody tr td.discussionsubscription {
+    display: none;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th.topic {
+    position: relative;
+    color: white;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable thead tr th.topic::after {
+    position: absolute;
+    content: 'Preguntas';
+    left: 0.5rem;
+    top: 19px;
+    color: #1d2125;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td a,
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td a:hover
+{
+ color: #122024;
+ text-decoration: none;
+ cursor: default;
+ font-family: 'Titillium Web';
+ pointer-events: none;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td.topic.starter
+{
+   max-width: 100px;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td.topic.starter a
+{
+ color: #005AFA;
+ font-weight: 700;
+ cursor: pointer;
+ pointer-events:initial;
+ text-decoration: underline;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td.topic.starter a:hover
+{
+ color: #0047c1;
+}
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody tr:first-of-type td{
+    background-color: #EBEBEB !important;
+} 
+
+#page-mod-moodleoverflow-view.format-topics table.generaltable tbody td {
+    height: 50px;
+   vertical-align: middle;
+}
+
+/**************FORO REVIEW-DISCUSSION*************/
+#page-mod-moodleoverflow-discussion #region-main div[role="main"] br {
+   display: none;
+}
+#page-mod-moodleoverflow-discussion #region-main h1.discussionname {
+    background-color: #ffffff !important;
+    display: flex !important;
+    align-items: center;
+    height: 46px !important;
+    padding-left:1.5rem !important;
+    margin-bottom: 0 !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+#moodleoverflow-posts .moodleoverflowpost.firstpost.starter {
+  background-color: #ffffff !important;
+  padding: 0px !important;
+  /*  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25) !important;*/
+  border-radius: 0 0 10px 10px !important;
+  overflow: hidden !important;
+  margin-bottom: 2rem !important;
+}
+
+#moodleoverflow-posts > h2,
+#moodleoverflow-posts > h3 {
+  background-color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 1.5rem !important;
+  height: 46px !important;
+  margin-bottom: 0 !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+#page-mod-moodleoverflow-discussion #region-main h3{
+margin-left: 0 !important;
+}
+#page-mod-moodleoverflow-discussion #region-main.bg-white {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+#moodleoverflow-posts .tmargin{
+    background-color: #ffffff !important;
+    margin-bottom: 2rem !important;
+    padding: 0px !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.moodleoverflowpost {
+    margin: 0px !important;
+}
+
+#moodleoverflow-posts > div.tmargin:first-of-type {
+  margin-top : 0!important;
+  border-radius: 0 0 10px 10px !important;
+}
+
+#moodleoverflow-posts br {
+  display: none;
+}
+#page-mod-moodleoverflow-discussion .indent {
+  margin-left: 0% !important;
+}
+#moodleoverflow-posts .answercell .attachments {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 1.5rem 0 !important;
+}
+
+#page-mod-moodleoverflow-discussion #region-main {
+  background-color: transparent;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .course-content ul.section.img-text {
+    grid-template-columns: 1fr !important;
+    padding: 0 15px !important;
+  }
+
+  #page-course-view-topics .activityinstance span {
+    width: 100% !important;
+  }
+
+  #nav-drawer {
+    top: 90px;
+  }
+
+  #region-main-box {
+    padding-top: 0.5rem !important;
+  }
+  .ee-user_blockinfo .card-body {
+    height: auto !important;
+  }
+}
+
+#page-mod-moodleoverflow-discussion .answercell,
+#page-mod-moodleoverflow-discussion .commentcell
+{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 0.75rem;
+}
+
+#page-mod-moodleoverflow-discussion .moodleoverflowpost .answercell .post-info,
+#page-mod-moodleoverflow-discussion .moodleoverflowpost .commentcell .post-info
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.75rem;
+}
+
+#page-mod-moodleoverflow-discussion
+  .moodleoverflowpost
+  .answercell
+  .post-info
+  .leftbox.questioner {
+ background-color: white;
+}
+
+#page-mod-moodleoverflow-discussion .moodleoverflowpost .answercel  .attachments,
+#page-mod-moodleoverflow-discussion .moodleoverflowpost .commentcell .attachments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0.75rem 2rem 0;
+  background-color: #EBEBEB;
+  border-radius: 10px;
+}
+
+#page-mod-moodleoverflow-discussion .moodleoverflowpost .commentcell .post-info .leftbox .text-muted {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/**** PAGINA MIS CURSOS ****/
+.page-mycourses #region-main {
+background: transparent;
+}
+
+.page-mycourses .card {
+border-radius: 10px;
+border: none;
+box-shadow: 5px 5px 10px rgba(0,0,0,.25)
+}
+
+.page-mycourses .card .card-body .media .courseimage {
+display: none;
+}
+
+.page-mycourses .card .card-body .media .media-body .stretched-link {
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+letter-spacing: .0015em;
+color: #122024;
+margin-top: 1rem;
+margin-bottom: .8rem;
+}
+
+.page-mycourses .card .card-body .media .media-body  div + div {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 14px;
+color: #122024;
+}
+
+.page-mycourses .card .card-body .media .media-body .small {
+margin-top: 1rem;
+font-size: 13px;
+font-weight: 700;
+font-family: 'Inter';
+color: #122024 !important;
+}
+/*------------------ HEADER FORO ------------------------------*/
+#page-header {
+  height: 100px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 85%;
+}
+
+#page-header .w-100 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.page-context-header .page-header-image,
+.page-header-headings .text-muted {
+  display: none;
+}
+
+
+/*---------------  ACCORDION CONTENTS---------------------*/
+.accordion .btn-span::after {
+    content: "";
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 21px;
+    right: 15px;
+    rotate: 45deg;
+    border-right: 3px solid #122024;
+    border-bottom: 3px solid #122024;
+}
+
+.accordion .btn-span[aria-expanded=true]::after {
+    rotate: 225deg;
+    top: 24px;
+}
+
